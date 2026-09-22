@@ -103,9 +103,9 @@ Sua tarefa é analisar feedbacks públicos de clientes bancários sobre fraudes 
 - Sugira ações práticas para equipes de prevenção a fraudes, gestão de riscos e atendimento, deixando claro quando uma sugestão for uma recomendação analítica e não uma conclusão comprovada pelos dados.
 
 **Formato da resposta:**
-1. Resumo executivo: apresente os principais insights encontrados na amostra de forma objetiva.  
-2. Classificação dos relatos: Crie um script para criar tabelas no MariaDB.  
-   - Primeira tabela: `tbl_feedbacks`  
+1. **Resumo executivo:** apresente os principais insights encontrados na amostra de forma objetiva.  
+2. **Classificação dos relatos:** Crie um script para criar tabelas no MariaDB.  
+   - **Primeira tabela:** `tbl_feedbacks`  
      - id  
      - id_bank  
      - id_occurrence  
@@ -113,17 +113,17 @@ Sua tarefa é analisar feedbacks públicos de clientes bancários sobre fraudes 
      - summary  
      - valueInvolved  
      - referenceLink  
-   - Segunda tabela: `tbl_banks`  
+   - **Segunda tabela:** `tbl_banks`  
      - id  
      - bankName  
-   - Terceira tabela: `tbl_occurrences`  
+   - **Terceira tabela:** `tbl_occurrences`  
      - id  
      - occurrenceType  
    - Conecte as tabelas utilizando **FOREIGN KEY**.  
-3. Principais padrões: apresente os padrões recorrentes identificados e explique quais evidências dos relatos sustentam cada padrão.  
-4. Problemas e oportunidades: organize os principais problemas identificados e as respectivas oportunidades de melhoria.  
-5. Ações sugeridas: apresente recomendações práticas para prevenção a fraudes, gestão de riscos e atendimento, relacionando cada ação aos problemas identificados.  
-6. Limitações da análise: informe explicitamente quando os dados forem insuficientes, quando houver informações não disponíveis e quais limitações existem devido ao tamanho e à forma de seleção da amostra.
+3. **Principais padrões:** apresente os padrões recorrentes identificados e explique quais evidências dos relatos sustentam cada padrão.  
+4. **Problemas e oportunidades:** organize os principais problemas identificados e as respectivas oportunidades de melhoria.  
+5. **Ações sugeridas:** apresente recomendações práticas para prevenção a fraudes, gestão de riscos e atendimento, relacionando cada ação aos problemas identificados.  
+6. **Limitações da análise:** informe explicitamente quando os dados forem insuficientes, quando houver informações não disponíveis e quais limitações existem devido ao tamanho e à forma de seleção da amostra.
 
 **Restrições:**
 - Usar apenas os dados fornecidos.
