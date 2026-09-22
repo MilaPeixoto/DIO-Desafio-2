@@ -120,6 +120,7 @@ Sua tarefa é analisar feedbacks públicos de clientes bancários sobre fraudes 
      - id  
      - occurrenceType  
    - Conecte as tabelas utilizando **FOREIGN KEY**.
+     
      Depois, alimente a tabela com os dados fornecidos.
 3. **Principais padrões:** apresente os padrões recorrentes identificados e explique quais evidências dos relatos sustentam cada padrão.  
 4. **Problemas e oportunidades:** organize os principais problemas identificados e as respectivas oportunidades de melhoria.  
