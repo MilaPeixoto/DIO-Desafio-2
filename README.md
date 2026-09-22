@@ -121,7 +121,7 @@ Sua tarefa é analisar feedbacks públicos de clientes bancários sobre fraudes 
      - occurrenceType  
    - Conecte as tabelas utilizando **FOREIGN KEY**.
      
-     Depois, alimente a tabela com os dados fornecidos.
+   - Crie um script de inserção de dados (INSERT INTO) para popular as tabelas com os registros fornecidos
 3. **Principais padrões:** apresente os padrões recorrentes identificados e explique quais evidências dos relatos sustentam cada padrão.  
 4. **Problemas e oportunidades:** organize os principais problemas identificados e as respectivas oportunidades de melhoria.  
 5. **Ações sugeridas:** apresente recomendações práticas para prevenção a fraudes, gestão de riscos e atendimento, relacionando cada ação aos problemas identificados.  
